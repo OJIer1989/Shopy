@@ -74,8 +74,13 @@ img{
     background-color: inherit;
     height: 100%;
   }
+  .nav,
+  .form{
+    width: 33%;
+  }
   .form{
     display: flex;
+    justify-content: end;
   }
   .header-link{
    margin-left: 24px;
@@ -198,8 +203,6 @@ img{
      .top-kicks{
       margin-bottom: 85px;
      }
-
-   
 }
 
 
