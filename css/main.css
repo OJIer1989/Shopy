@@ -63,21 +63,25 @@ img{
   border: none;
   cursor: pointer;
   background-color: inherit;
-  padding-top: 18px;
+  padding-top: 15px;
   }
   .header-top{
     display: flex;
     justify-content: space-between;
   }
-  
+.nav{
+  flex-grow: 2;
+}
   .nav-btn{
     border: none;
     background-color: inherit;
     height: 100%;
+    
   }
   .form{
     display: flex;
     justify-content: end;
+    flex-grow: 1;
   }
   .header-link{
    margin-left: 24px;
@@ -88,6 +92,7 @@ img{
   padding: 18px 51px;
   background-color: black;
   color: #fff;
+  font-weight: 800;
   }
    .header-text{
     font-family: 'Montserrat', sans-serif;
