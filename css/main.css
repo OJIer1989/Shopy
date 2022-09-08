@@ -80,10 +80,9 @@ img{
   }
   .form{
     display: flex;
-    justify-content: end;
+ justify-content: space-around;
   }
   .header-link{
-   margin-left: 24px;
    padding-top: 18px;
   }
 
