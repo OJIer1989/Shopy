@@ -69,9 +69,7 @@ img{
     display: flex;
     justify-content: space-between;
   }
-  .nav{
-    flex-grow: 1;
-  }
+  
   .nav-btn{
     border: none;
     background-color: inherit;
@@ -80,7 +78,6 @@ img{
   .form{
     display: flex;
     justify-content: end;
-      flex-grow: 1;
   }
   .header-link{
    margin-left: 24px;
