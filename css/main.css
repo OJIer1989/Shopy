@@ -287,7 +287,6 @@ h1{
 header {
     padding: 31px 0 26px 0;
   }
-
   .container {
     max-width: 1512px;
     margin: 0 auto;
@@ -296,6 +295,9 @@ header {
   .nav{
     display: flex;
     justify-content: space-between;
+  }
+  .logo-img{
+    display: none;
   }
   .header-nav {
     display: flex;
