@@ -45,6 +45,11 @@ h1{
   .header-input{
    display: none;
   }
+  .bg{
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+  }
   .bg-big{
     display: none;
   }
@@ -158,7 +163,7 @@ h1{
       display: flex;
        width: 360px;
        height: 350px;
-       overflow-y: scroll;     
+       overflow-x: scroll;     
      }
             #style-4::-webkit-scrollbar-track {
               -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
