@@ -32,9 +32,16 @@ h1{
       font-weight: 800;
       font-size: 1.2em;
     }
+    /* img{
+      width: 100%;
+      height: 100%;
+    } */
 
 @media(max-width:800px){
-
+  /* img {
+      width: 100%;
+      height: 100%;
+    } */
   header{
  padding: 31px 0 26px 0;
   }
@@ -55,16 +62,21 @@ h1{
   .bg{
     display: block;
     margin: 0 auto;
-    width: 390px;
+   
   }
   .bg-big{
     display: none;
+   
   }
   .header-btn{
   border: none;
   cursor: pointer;
   background-color: inherit;
   padding-top: 15px;
+  }
+  .header-btn>img{
+    height: 21px;
+    width: 21px;
   }
   .header-top{
     display: flex;
@@ -87,8 +99,14 @@ h1{
   .header-link{
    padding-top: 18px;
   }
+  .header-link>img{
+    width: 16px;
+    height: 21px;
+  }
   .logo-img{
     margin-top: 6px;
+    width: 21px;
+    height: 21px;
   }
   .logo{
   padding: 14px 51px;
@@ -330,7 +348,9 @@ header {
   .none{
     display: none;
   }
-
+ .bg-big{
+  max-width: 1060px;
+ }
   .header-input {
     display: none;
   }
@@ -426,7 +446,6 @@ header {
   .man {
     position: relative;
     height: 454px;
-    width: 724px;
     display: inline-block;
     width: 49%;
   }
@@ -434,15 +453,7 @@ header {
     margin-bottom: 1.8rem;
     margin-right: 16px;
   }
-  .women>img{
-    width: 724px;
-    height: 454px;
-   
-  }
-  .man>img{
-    width: 724px;
-    height: 454px;
-  }
+ 
   .buy-now_text {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.8em;
@@ -472,7 +483,6 @@ header {
     bottom: 14px;
     left: 20px;
   }
-
   .scrollbar {
     display: flex;
     width: 1460px;
@@ -593,10 +603,6 @@ header {
     height: 21px;
     margin-right: 13px;
   }
-
- 
-
-  
   .about,
   .legal-stuff {
     margin-bottom: 15px;
