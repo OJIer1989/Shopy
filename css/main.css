@@ -313,7 +313,7 @@ h1{
     
 
 
-@media(min-width:801px){
+@media (min-width:801px){
 header {
     padding: 31px 0 26px 0;
   }
@@ -346,8 +346,12 @@ header {
   .none{
     display: none;
   }
+  .big-bg{
+    max-width: 1060px;
+    display: inline-block;
+  }
  .bg-big{
-  max-width: 1060px;
+ width: 100%;
  }
   .header-input {
     display: none;
@@ -412,7 +416,7 @@ header {
 }
   .shop-body {
     margin-bottom: 3rem;
-  width: 320px;
+    max-width: 320px;
     margin-top: 220px;
     display: inline-block;
     margin-right: 73px;
